@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+.about-profile {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about,
+.profile {
+    flex: 1;
+    padding: 10px;
+    background-color: #eaeaea;
+    margin: 0 10px;
+}
+
+.our-work {
+    text-align: center;
+    padding: 20px;
+}
+
+.work-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.clients {
+    text-align: center;
+    padding: 20px;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
